@@ -1,0 +1,41 @@
+$primary-font: Verdana, Geneva, sans-serif;
+$secondary-font: "Homemade Apple", cursive;
+$header-font: "Montserrat", sans-serif;
+$light-color: #ebebeb;
+$primary-color: #fcfcfc;
+$secondary-color: #f8d9d6;
+$tertiary-color: #797979;
+$quaternary-color: #ff8584;
+$dark-color: #515151;
+$transition: all 0.4s ease-in-out;
+
+//dark-colors
+
+$primary-dark: #292c35;
+$secondary-dark: #e27cb3;
+$tertiary-dark: #393a59;
+$quaternary-dark: #9580fc;
+$vibrant-dark: #4de975;
+
+// card
+
+%my-project-card {
+  display: grid;
+  grid-template-columns: repeat(5, [col] 2fr);
+  grid-template-rows: repeat(4, [row] 100px);
+  background-color: transparent;
+  overflow: hidden;
+  padding: 2%;
+}
+
+%my-project-img {
+  margin: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: filter 0.5s ease;
+  object-fit: stretch;
+  opacity: 0.8;
+  filter: grayscale(100%);
+}
