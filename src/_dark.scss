@@ -94,8 +94,8 @@ body {
       > #other-projects-container
       > .my-other-work
       > .other-project,
-    #myfeaturedwork > .myproject1 > .info-featured-project,
-    #myfeaturedwork > .myproject2 > .info-featured-project {
+    #myfeaturedwork > .myfeaturedwork-left > .info-featured-project,
+    #myfeaturedwork > .myfeaturedwork-right > .info-featured-project {
       background-color: $quaternary-dark;
       color: $light-color;
 

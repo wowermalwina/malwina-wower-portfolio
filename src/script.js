@@ -5,20 +5,7 @@ hamburger.addEventListener("click", () => {
   navUL.classList.toggle("show");
 });
 
-// function changeColors(){
-
-//     document.getElementById("profile-pic").src = "src/img/vampire.jpg";
-//         document.body.style.background = "rgb(39,42,55)";
-//         document.getElementById("header").style.background = "rgb(206,114,173)";
-//         document.getElementById("contact-section").style.background = "rgb(148,124,206)";
-//         getComputedStyle(document.documentElement).getPropertyValue('#515151');
-//         document.documentElement.style.setProperty('#515151', 'red');
-//         document.getElementById("portfolio").style.color = "lightblue";
-//         document.getElementsByClassName("headline").style.color = "lightblue";
-
-//     }
-
-function toggleImg() {
+const toggleImg = () => {
   let initialImg = document.getElementById("profile-pic").src;
   let srcTest = initialImg.includes("src/img/picture-of-malwina.jpg");
   let newImg = {
@@ -27,9 +14,9 @@ function toggleImg() {
   }[srcTest];
 
   return newImg;
-}
+};
 
-function toggleImageFooter() {
+const toggleImageFooter = () => {
   let initialImg = document.getElementById("footer-image").src;
   let srcTest = initialImg.includes("src/img/working_late.svg");
   let newImg = {
@@ -38,7 +25,7 @@ function toggleImageFooter() {
   }[srcTest];
 
   return newImg;
-}
+};
 
 const colorChanger = document.getElementById("colorChanger");
 

@@ -1,4 +1,4 @@
-body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-background .myproject2, body #myportfolio {
+body #myfeaturedwork .myfeaturedwork-left, body #myfeaturedwork .myfeaturedwork-right, body #myportfolio {
   max-width: 100%;
   width: 1200px;
   margin: 40px auto;
@@ -7,7 +7,7 @@ body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-backgrou
           box-sizing: border-box;
 }
 
-body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-background .myproject2 {
+body #myfeaturedwork .myfeaturedwork-left, body #myfeaturedwork .myfeaturedwork-right {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: ([col] 2fr)[5];
@@ -22,7 +22,7 @@ body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-backgrou
   margin-top: 10vh;
 }
 
-body #myfeaturedwork .myproject1 .projectimage img, body #myfeaturedwork .featuredproject-background .myproject2 .projectimage img {
+body #myfeaturedwork .myfeaturedwork-left .projectimage img, body #myfeaturedwork .myfeaturedwork-right .projectimage img {
   margin: 0;
   max-height: 100%;
   max-width: 100%;
@@ -45,7 +45,7 @@ body #featuredprojects .featuredprojects-background {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23ff8584' fill-opacity='0.17' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-background .myproject2, body #myportfolio {
+body #myfeaturedwork .myfeaturedwork-left, body #myfeaturedwork .myfeaturedwork-right, body #myportfolio {
   max-width: 100%;
   width: 1200px;
   margin: 40px auto;
@@ -54,7 +54,7 @@ body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-backgrou
           box-sizing: border-box;
 }
 
-body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-background .myproject2 {
+body #myfeaturedwork .myfeaturedwork-left, body #myfeaturedwork .myfeaturedwork-right {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: ([col] 2fr)[5];
@@ -69,7 +69,7 @@ body #myfeaturedwork .myproject1, body #myfeaturedwork .featuredproject-backgrou
   margin-top: 10vh;
 }
 
-body #myfeaturedwork .myproject1 .projectimage img, body #myfeaturedwork .featuredproject-background .myproject2 .projectimage img {
+body #myfeaturedwork .myfeaturedwork-left .projectimage img, body #myfeaturedwork .myfeaturedwork-right .projectimage img {
   margin: 0;
   max-height: 100%;
   max-width: 100%;
@@ -177,27 +177,27 @@ body.dark #other-projects {
 }
 
 body.dark #other-projects > #other-projects-container > .my-other-work > .other-project,
-body.dark #myfeaturedwork > .myproject1 > .info-featured-project,
-body.dark #myfeaturedwork > .myproject2 > .info-featured-project {
+body.dark #myfeaturedwork > .myfeaturedwork-left > .info-featured-project,
+body.dark #myfeaturedwork > .myfeaturedwork-right > .info-featured-project {
   background-color: #9580fc;
   color: #ebebeb;
 }
 
 body.dark #other-projects > #other-projects-container > .my-other-work > .other-project p,
-body.dark #myfeaturedwork > .myproject1 > .info-featured-project p,
-body.dark #myfeaturedwork > .myproject2 > .info-featured-project p {
+body.dark #myfeaturedwork > .myfeaturedwork-left > .info-featured-project p,
+body.dark #myfeaturedwork > .myfeaturedwork-right > .info-featured-project p {
   color: #ebebeb;
 }
 
 body.dark #other-projects > #other-projects-container > .my-other-work > .other-project svg,
-body.dark #myfeaturedwork > .myproject1 > .info-featured-project svg,
-body.dark #myfeaturedwork > .myproject2 > .info-featured-project svg {
+body.dark #myfeaturedwork > .myfeaturedwork-left > .info-featured-project svg,
+body.dark #myfeaturedwork > .myfeaturedwork-right > .info-featured-project svg {
   color: #4de975;
 }
 
 body.dark #other-projects > #other-projects-container > .my-other-work > .other-project svg:hover,
-body.dark #myfeaturedwork > .myproject1 > .info-featured-project svg:hover,
-body.dark #myfeaturedwork > .myproject2 > .info-featured-project svg:hover {
+body.dark #myfeaturedwork > .myfeaturedwork-left > .info-featured-project svg:hover,
+body.dark #myfeaturedwork > .myfeaturedwork-right > .info-featured-project svg:hover {
   color: #4de975;
 }
 
@@ -711,6 +711,9 @@ body #featuredprojects {
 }
 
 body #featuredprojects .featuredprojects-background {
+  padding: 10px;
+  -webkit-box-shadow: 5px 10px;
+          box-shadow: 5px 10px;
   width: 100%;
   height: 100%;
 }
@@ -842,7 +845,7 @@ body #myfeaturedwork span {
   font-size: 0.7rem;
 }
 
-body #myfeaturedwork .myproject1 .box {
+body #myfeaturedwork .myfeaturedwork-left .box {
   height: 100%;
   color: #515151;
   text-align: right;
@@ -850,7 +853,7 @@ body #myfeaturedwork .myproject1 .box {
   z-index: 5;
 }
 
-body #myfeaturedwork .myproject1 .projectimage {
+body #myfeaturedwork .myfeaturedwork-left .projectimage {
   grid-column: col 1 / span 3;
   grid-row: row 1 / span 4;
   background-color: transparent;
@@ -863,33 +866,33 @@ body #myfeaturedwork .myproject1 .projectimage {
      object-fit: contain;
 }
 
-body #myfeaturedwork .myproject1 .projectimage img {
+body #myfeaturedwork .myfeaturedwork-left .projectimage img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
 }
 
-body #myfeaturedwork .myproject1 .projectimage img:hover {
+body #myfeaturedwork .myfeaturedwork-left .projectimage img:hover {
   opacity: 1;
   -webkit-filter: grayscale(10%);
           filter: grayscale(10%);
 }
 
-body #myfeaturedwork .myproject1 .featured-project-title {
+body #myfeaturedwork .myfeaturedwork-left .featured-project-title {
   grid-column: col 4;
   grid-row: row 1;
 }
 
-body #myfeaturedwork .myproject1 .external-links {
+body #myfeaturedwork .myfeaturedwork-left .external-links {
   grid-column: col 4;
   grid-row: row 4;
   z-index: 7;
 }
 
-body #myfeaturedwork .myproject1 .external-links a {
+body #myfeaturedwork .myfeaturedwork-left .external-links a {
   padding-left: 20px;
 }
 
-body #myfeaturedwork .myproject1 .info-featured-project {
+body #myfeaturedwork .myfeaturedwork-left .info-featured-project {
   grid-column: col 3 / span 2;
   grid-row: row 2 / span 2;
   background-color: #f8d9d6;
@@ -899,20 +902,14 @@ body #myfeaturedwork .myproject1 .info-featured-project {
   overflow: hidden;
 }
 
-body #myfeaturedwork .featuredproject-background {
-  padding: 2% 0;
-  background-color: #fcfcfc;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23f8d9d6' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-}
-
-body #myfeaturedwork .featuredproject-background .myproject2 .box {
+body #myfeaturedwork .myfeaturedwork-right .box {
   color: #515151;
   text-align: left;
   font-size: 150%;
   z-index: 5;
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .projectimage {
+body #myfeaturedwork .myfeaturedwork-right .projectimage {
   grid-column: col 3 / span 3;
   grid-row: row 1 / span 4;
   background-color: transparent;
@@ -929,27 +926,27 @@ body #myfeaturedwork .featuredproject-background .myproject2 .projectimage {
      object-fit: scale-down;
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .projectimage img:hover {
+body #myfeaturedwork .myfeaturedwork-right .projectimage img:hover {
   opacity: 1;
   -webkit-filter: grayscale(10%);
           filter: grayscale(10%);
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .featured-project-title {
+body #myfeaturedwork .myfeaturedwork-right .featured-project-title {
   grid-column: col 2;
   grid-row: row 1;
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .external-links {
+body #myfeaturedwork .myfeaturedwork-right .external-links {
   grid-column: col 2;
   grid-row: row 4;
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .external-links a {
+body #myfeaturedwork .myfeaturedwork-right .external-links a {
   padding-right: 20px;
 }
 
-body #myfeaturedwork .featuredproject-background .myproject2 .info-featured-project {
+body #myfeaturedwork .myfeaturedwork-right .info-featured-project {
   grid-column: col 2 / span 2;
   grid-row: row 2 / span 2;
   background-color: #f8d9d6;
@@ -961,14 +958,16 @@ body #myfeaturedwork .featuredproject-background .myproject2 .info-featured-proj
 
 body #other-projects {
   background-color: #c7c7c7;
-  padding: 2% 0;
-  -webkit-clip-path: polygon(0 6%, 9% 0%, 15% 5%, 21% 2%, 25% 7%, 28% 5%, 30% 7%, 33% 3%, 39% 5%, 46% 0%, 52% 7%, 56% 3%, 59% 6%, 64% 0%, 67% 4%, 75% 4%, 77% 6%, 81% 1%, 85% 5%, 91% 2%, 100% 7%, 99% 87%, 94% 92%, 88% 86%, 84% 96%, 76% 87%, 73% 92%, 68% 86%, 65% 92%, 60% 87%, 58% 94%, 53% 88%, 48% 95%, 43% 88%, 38% 94%, 34% 98%, 31% 90%, 25% 96%, 19% 96%, 15% 93%, 13% 97%, 10% 97%, 6% 94%, 1% 97%, 0% 93%, 0% 81%);
-          clip-path: polygon(0 6%, 9% 0%, 15% 5%, 21% 2%, 25% 7%, 28% 5%, 30% 7%, 33% 3%, 39% 5%, 46% 0%, 52% 7%, 56% 3%, 59% 6%, 64% 0%, 67% 4%, 75% 4%, 77% 6%, 81% 1%, 85% 5%, 91% 2%, 100% 7%, 99% 87%, 94% 92%, 88% 86%, 84% 96%, 76% 87%, 73% 92%, 68% 86%, 65% 92%, 60% 87%, 58% 94%, 53% 88%, 48% 95%, 43% 88%, 38% 94%, 34% 98%, 31% 90%, 25% 96%, 19% 96%, 15% 93%, 13% 97%, 10% 97%, 6% 94%, 1% 97%, 0% 93%, 0% 81%);
+  padding: 20px 0;
   background-color: #fcfcfc;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%23797979' fill-opacity='0.05' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 body #other-projects h3 {
+  padding: 0;
+}
+
+body #other-projects p {
   padding: 0;
 }
 
@@ -1344,6 +1343,10 @@ body footer p {
     display: inline-block;
     font-size: 10px;
   }
+  body header nav ul li a:hover, body header nav ul li a:visited {
+    color: Verdana, Geneva, sans-serif;
+    background-color: transparent;
+  }
   body .myLinks {
     display: none;
   }
@@ -1365,9 +1368,10 @@ body footer p {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    line-height: 2.5vh;
-    top: 45px;
-    right: 62vw;
+    margin: 0;
+    top: 48px;
+    width: 100vw;
+    left: 0;
   }
   body .aboutme {
     display: -webkit-box;
@@ -1418,16 +1422,16 @@ body footer p {
   body .icons-wrapper .wrapper span.icons-text {
     font-size: 9px;
   }
-  body #myfeaturedwork > .myproject1 > .external-links,
-  body #myfeaturedwork > .featuredproject-background > .myproject2 > .external-links {
+  body #myfeaturedwork > .myfeaturedwork-left > .external-links,
+  body #myfeaturedwork > .myfeaturedwork-right > .external-links {
     text-align: right;
   }
-  body #myfeaturedwork .featuredproject-background .myproject2 .projectimage,
-  body #myfeaturedwork .myproject1 .projectimage {
+  body #myfeaturedwork .myfeaturedwork-right .projectimage,
+  body #myfeaturedwork .myfeaturedwork-left .projectimage {
     display: none;
   }
-  body #myfeaturedwork > .myproject1,
-  body #myfeaturedwork > .featuredproject-background > .myproject2 {
+  body #myfeaturedwork > .myfeaturedwork-left,
+  body #myfeaturedwork > .myfeaturedwork-right {
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
@@ -1436,12 +1440,8 @@ body footer p {
     height: auto;
     max-width: 100vw;
   }
-  body #myfeaturedwork > .myproject1 > .info-featured-project,
-  body #myfeaturedwork > .myproject2 > .box {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23f8d9d6' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  }
-  body #myfeaturedwork > .myproject1 > .projectimage,
-  body #myfeaturedwork > .myproject2 > .projectimage {
+  body #myfeaturedwork > .myfeaturedwork-left > .projectimage,
+  body #myfeaturedwork > .myfeaturedwork-right > .projectimage {
     width: calc(100vw - 80px);
   }
   body #myfeaturedwork > .featuredproject-background {
@@ -1453,8 +1453,8 @@ body footer p {
     -webkit-clip-path: inset(0 0 0 0);
             clip-path: inset(0 0 0 0);
   }
-  body .myproject1,
-  body .myproject2 {
+  body .myfeaturedwork-left,
+  body .myfeaturedwork-right {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1;
@@ -1468,8 +1468,8 @@ body footer p {
     padding: 0;
     margin: 20px 0;
   }
-  body .myproject1 .box,
-  body .myproject2 .box {
+  body .myfeaturedwork-left .box,
+  body .myfeaturedwork-right .box {
     width: calc(100vw - 80px);
     height: 100%;
     color: #515151;
@@ -1478,8 +1478,8 @@ body footer p {
     z-index: 5;
     background-color: transparent;
   }
-  body .myproject1 img,
-  body .myproject2 img {
+  body .myfeaturedwork-left img,
+  body .myfeaturedwork-right img {
     margin: 0;
     max-height: 100%;
     max-width: 100%;
@@ -1494,22 +1494,22 @@ body footer p {
        object-fit: scale-down;
     opacity: 0.8;
   }
-  body .myproject1 .info-featured-project,
-  body .myproject2 .info-featured-project {
+  body .myfeaturedwork-left .info-featured-project,
+  body .myfeaturedwork-right .info-featured-project {
     background-color: transparent;
   }
-  body .myproject1 .featured-project-title,
-  body .myproject2 .featured-project-title {
+  body .myfeaturedwork-left .featured-project-title,
+  body .myfeaturedwork-right .featured-project-title {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     grid-column: col 1;
     grid-row: row 2;
   }
-  body .myproject1 .featured-project-title h4,
-  body .myproject1 .featured-project-title h5,
-  body .myproject2 .featured-project-title h4,
-  body .myproject2 .featured-project-title h5 {
+  body .myfeaturedwork-left .featured-project-title h4,
+  body .myfeaturedwork-left .featured-project-title h5,
+  body .myfeaturedwork-right .featured-project-title h4,
+  body .myfeaturedwork-right .featured-project-title h5 {
     color: red;
     display: -ms-grid;
     display: grid;
@@ -1517,8 +1517,8 @@ body footer p {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  body .myproject1 .box > .external-links,
-  body .myproject2 .box > .external-links {
+  body .myfeaturedwork-left .box > .external-links,
+  body .myfeaturedwork-right .box > .external-links {
     grid-column: col 1;
     grid-row: row 3;
     z-index: 10;
@@ -1532,10 +1532,6 @@ body footer p {
   }
   body #other-projects > .my-other-work > .other-project {
     width: 100%;
-  }
-  body #other-projects {
-    -webkit-clip-path: inset(0 0 0 0);
-            clip-path: inset(0 0 0 0);
   }
   body #portfolio {
     display: -webkit-box;
@@ -1603,12 +1599,6 @@ body footer p {
   }
   body main h3 {
     font-size: 30px;
-    padding: 3%;
-  }
-  body header,
-  body nav {
-    position: relative;
-    top: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
