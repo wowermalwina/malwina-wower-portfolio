@@ -1,6 +1,6 @@
 $base-margin: 20px;
 $base-padding: 20px;
-$border-radius: 35px;
+$border-radius: 5px;
 
 $primary-font: Verdana, Geneva, sans-serif;
 $secondary-font: "Homemade Apple", cursive;
@@ -21,6 +21,7 @@ $secondary-dark: #e27cb3;
 $tertiary-dark: #393a59;
 $quaternary-dark: #9580fc;
 $vibrant-dark: #4de975;
+$gray-dark: #44475a;
 
 //sections
 %section {
@@ -54,15 +55,27 @@ $vibrant-dark: #4de975;
 
 %my-project-img {
   margin: 0;
-  max-height: 100%;
+  height: 100%;
   max-width: 100%;
   height: auto;
-  overflow: hidden;
-  box-sizing: border-box;
+  // overflow: hidden;
+
   transition: filter 0.5s ease-in;
   object-fit: contain;
   opacity: 0.8;
   filter: grayscale(100%);
+}
+
+%info-featured-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  text-align: center;
+  z-index: 6;
+  border-radius: $border-radius;
+  overflow: hidden;
+  padding: $base-padding/2;
 }
 
 %background-image-url1 {
