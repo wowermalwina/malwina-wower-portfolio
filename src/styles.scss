@@ -152,10 +152,10 @@ body {
           transition: $transition;
 
           &:hover {
-            color: $tertiary-color;
+            color: $quaternary-color;
             text-align: center;
             text-decoration: none;
-            background-color: $secondary-color;
+            // background-color: $secondary-color;
           }
         }
       }
@@ -826,7 +826,7 @@ body {
           li {
             a {
               padding: 0;
-              font-size: 10px;
+              font-size: 14px;
             }
           }
         }
@@ -840,9 +840,16 @@ body {
       h2 {
         padding: 4%;
       }
+
       img {
         height: 250px;
         width: auto;
+      }
+    }
+
+    #myskills {
+      h3 {
+        margin-top: 3em;
       }
     }
 
