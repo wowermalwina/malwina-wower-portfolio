@@ -759,6 +759,22 @@ body .icons-wrapper .wrapper .skill-fire:hover {
   color: #f7a416;
 }
 
+body #myfeaturedwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body #myfeaturedwork #myfeaturedwork-p {
   max-width: 100%;
   width: 1200px;
@@ -777,6 +793,10 @@ body #myfeaturedwork h5 {
 
 body #myfeaturedwork span {
   font-size: 0.7rem;
+}
+
+body #myfeaturedwork .myfeaturedwork-left {
+  height: 60vh;
 }
 
 body #myfeaturedwork .myfeaturedwork-left .box {
@@ -827,6 +847,10 @@ body #myfeaturedwork .myfeaturedwork-left .info-featured-project {
 
 body #myfeaturedwork .myfeaturedwork-left .info-featured-project p {
   padding: 0;
+}
+
+body #myfeaturedwork .myfeaturedwork-right {
+  height: 60vh;
 }
 
 body #myfeaturedwork .myfeaturedwork-right .box {
@@ -1469,7 +1493,6 @@ body footer p {
   body .myfeaturedwork-left .featured-project-title h5,
   body .myfeaturedwork-right .featured-project-title h4,
   body .myfeaturedwork-right .featured-project-title h5 {
-    color: red;
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
