@@ -375,6 +375,10 @@ body {
   /* My featured work */
 
   #myfeaturedwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     #myfeaturedwork-p {
       max-width: 100%;
       width: 1200px;
@@ -398,7 +402,7 @@ body {
     .myfeaturedwork-left {
       @extend %my-project-card;
       @extend %section;
-
+      height: 60vh;
       .box {
         height: 100%;
         color: $dark-color;
@@ -450,6 +454,7 @@ body {
     .myfeaturedwork-right {
       @extend %my-project-card;
       @extend %section;
+      height: 60vh;
       .box {
         color: $dark-color;
         text-align: left;
@@ -1023,7 +1028,6 @@ body {
 
         h4,
         h5 {
-          color: red;
           display: grid;
           justify-content: center;
         }
