@@ -1,5 +1,6 @@
 $base-margin: 20px;
 $base-padding: 20px;
+$border-radius: 35px;
 
 $primary-font: Verdana, Geneva, sans-serif;
 $secondary-font: "Homemade Apple", cursive;
@@ -11,6 +12,7 @@ $tertiary-color: #797979;
 $quaternary-color: #ff8584;
 $dark-color: #515151;
 $transition: all 0.4s ease-in-out;
+$gray: #f5f5f5;
 
 //dark-colors
 
@@ -29,11 +31,18 @@ $vibrant-dark: #4de975;
   box-sizing: border-box;
 }
 
+//button
+%button {
+  width: 300px;
+  height: 50px;
+  border-radius: 35px;
+  outline: none;
+}
+
 // card
 
 %my-project-card {
   display: grid;
-
   grid-template-columns: repeat(5, [col] 2fr);
   grid-template-rows: repeat(4, [row] 100px);
   background-color: transparent;
@@ -47,10 +56,11 @@ $vibrant-dark: #4de975;
   margin: 0;
   max-height: 100%;
   max-width: 100%;
+  height: auto;
   overflow: hidden;
   box-sizing: border-box;
   transition: filter 0.5s ease-in;
-  object-fit: scale-down;
+  object-fit: contain;
   opacity: 0.8;
   filter: grayscale(100%);
 }

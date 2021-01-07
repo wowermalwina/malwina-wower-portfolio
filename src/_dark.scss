@@ -132,8 +132,9 @@ body {
 
         .portfolio-panel {
           border: 10px solid $primary-dark;
+
           &:after {
-            background: transparentize(#67686e, 0.5);
+            background: transparentize(#292c35, 0.8);
           }
           &:before {
             background: linear-gradient(

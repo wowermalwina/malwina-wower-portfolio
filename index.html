@@ -30,7 +30,7 @@
       <nav class="main-nav">
         <ul class="myLinks" id="myLinks">
           <li><a href="#myportfolio">Portfolio</a></li>
-          <li><a href="#myfeaturedwork">Featured Work</a></li>
+          <li><a href="#myfeaturedwork">Featured Projects</a></li>
           <li><a href="#contact-section">Contact</a></li>
         </ul>
         <div>
@@ -136,50 +136,49 @@
         </div>
       </section>
 
-      <section id="featuredprojects">
-        <h3>Featured projects</h3>
-        <div class="featuredprojects-background">
-        <section class="featuredprojects-container">         
-          <div class="featuredprojects-left-column">
-            <div class="featuredprojects-image">
-              <img
-                src="src/img/happy-app-image.png"
-                class="happy-app-project"
-                alt="Happy App Image"
-              />
-            </div>
-          </div>
-          <div class="featuredprojects-middle-column">
-            <img
-              src="src/img/coding-background.jpg"
-              class="profile-pic"
-              id="profile-pic"
-              alt="avatar"
-            />
-          </div>
-          <div class="featuredprojects-right-column">
-            <h4>Featured projects</h3>
+      <section id="chosenproject">
+        <div class="chosenproject-background">
+          <h3>Happy App</h3>
+
+          <section class="chosenproject-container">
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sed
               nesciunt minus explicabo quam nihil modi exercitationem delectus
               vero molestiae odit sequi suscipit quae recusandae, esse pariatur
               eos earum nulla!
             </p>
-            <div class="box external-links">
-              <a href="https://github.com/nology-tech/happy-app" alt="code"
-                ><span class="fab fa-github"></span
-              ></a>
-              <a href="https://happy-app-86830.web.app/" alt="code"
-                ><span class="fas fa-external-link-alt"></span
-              ></a>
+            <span>
+              <button>REACT</button> <button>CSS3(SASS)</button>
+              <button>HTML5</button>
+            </span>
+            <div class="chosenproject-left-column">
+              <div class="chosenproject-image">
+                <img
+                  src="src/img/happy-app-image.png"
+                  class="happy-app-project"
+                  alt="Happy App Image"
+                />
+              </div>
             </div>
-          </div>
-        </section>
+            <div class="chosenproject-middle-column">
+              <span>REACT FIREBASE CSS3(SASS) HTML5 </span>
+            </div>
+            <div class="chosenproject-right-column">
+              <div class="box external-links">
+                <a href="https://github.com/nology-tech/happy-app" alt="code"
+                  ><span class="fab fa-github"></span
+                ></a>
+                <a href="https://happy-app-86830.web.app/" alt="code"
+                  ><span class="fas fa-external-link-alt"></span
+                ></a>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
 
       <section id="myfeaturedwork">
-        <h3>Featured work</h3>
+        <h3>Featured projects</h3>
         <p id="myfeaturedwork-p">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo sed
           nesciunt minus explicabo quam nihil modi exercitationem delectus vero
@@ -218,7 +217,7 @@
             </p>
             <span>REACT</span>
           </div>
-      </div>
+        </div>
         <div
           class="myfeaturedwork-right"
           data-aos="fade-up"
@@ -249,9 +248,9 @@
               elit. Blanditiis voluptatibus repudiandae aliquid nihil optio
             </p>
             <span>REACT</span>
+          </div>
         </div>
-        </div>
-        
+
         <div
           class="myfeaturedwork-left"
           data-aos="fade-up"
@@ -364,11 +363,16 @@
               </div>
             </div>
           </section>
+          <a href="#myportfolio"
+            ><button>
+              <span class="fab fa-github"></span><span>See more on Github</span>
+            </button></a
+          >
         </div>
       </section>
 
       <section id="myportfolio">
-        <h3>Portfolio</h3>
+        <h3>Experience and Certifications</h3>
         <p>
           doloribus, eligendi repudiandae earum dignissimos est neque deserunt
           consequatur. Repudiandae autem maxime magnam
@@ -376,31 +380,20 @@
 
         <section id="portfolio">
           <div class="portfolio-panel">
-            <div
-              class="portfolio-background"
-              style="
-                background-image: url(https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-              "
-            ></div>
-
-            <div class="portfolio-title">Project #1</div>
+            <div class="portfolio-background">
+              <img src="src/img/nology_logo.png" alt="nology_logo" />
+            </div>
 
             <div class="portfolio-content">
-              <h4>Lorem ipsum dolor sit</h4>
+              <h4>_nology</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
             </div>
           </div>
 
           <div class="portfolio-panel">
-            <div
-              class="portfolio-background"
-              style="
-                background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg);
-              "
-            ></div>
-
-            <div class="portfolio-title">Project #2</div>
-
+            <div class="portfolio-background">
+              <img src="src/img/shecodes_logo.png" alt="shecodes_logo" />
+            </div>
             <div class="portfolio-content">
               <h4>Vestibulum laoreet lorem</h4>
               <p>Suspendisse potenti. Sed sollicitudin eros lorem</p>
@@ -414,9 +407,6 @@
                 background-image: url(https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
               "
             ></div>
-
-            <div class="portfolio-title">Project #3</div>
-
             <div class="portfolio-content">
               <h4>Phasellus mauris elit</h4>
               <p>Mauris cursus magna at libero lobortis tempor.</p>
@@ -430,9 +420,6 @@
                 background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg);
               "
             ></div>
-
-            <div class="portfolio-title">Project #4</div>
-
             <div class="portfolio-content">
               <h4>Mauris vitae nunc elem</h4>
               <p>Suspendisse ac mi at dolor sodales faucibus.</p>
@@ -462,7 +449,7 @@
             <span class="fab fa-linkedin"></span>
           </li>
         </a>
-        <a href="#" alt="email">
+        <a href="mailto:wowermalwina@gmail.com" alt="email">
           <li class="contact">
             <span class="fas fa-envelope-square"></span>
           </li>
