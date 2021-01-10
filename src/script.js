@@ -5,6 +5,8 @@ hamburger.addEventListener("click", () => {
   navUL.classList.toggle("show");
 });
 
+// ToggleImg
+
 const toggleImg = () => {
   let initialImg = document.getElementById("profile-pic").src;
   let srcTest = initialImg.includes("src/img/picture-of-malwina.jpg");

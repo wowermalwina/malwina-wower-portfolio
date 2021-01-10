@@ -568,7 +568,7 @@ body a:hover {
 }
 
 body div p {
-  text-align: left;
+  text-align: justify;
   font-size: 0.8rem;
   margin: 10px;
   padding: 10px 10px 0 10px;
@@ -951,7 +951,6 @@ body #other-projects p {
 }
 
 body #other-projects #other-projects-container {
-  padding: 20px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1028,7 +1027,10 @@ body #other-projects #other-projects-container .my-other-work .other-project .ex
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  gap: 20px;
+}
+
+body #other-projects #other-projects-container .my-other-work .other-project .external-links a {
+  padding-left: 20px;
 }
 
 body #other-projects #other-projects-container .my-other-work .other-project p {
@@ -1357,6 +1359,9 @@ body footer p {
         align-content: flex-end;
     margin: 1%;
   }
+  body #hamburger .fa-cross {
+    display: none;
+  }
   body header nav ul {
     display: inline-block;
     font-size: 10px;
@@ -1570,6 +1575,10 @@ body footer p {
   body .portfolio-content {
     -webkit-transform: none;
             transform: none;
+  }
+  body #contact-section p {
+    padding: 0 20px;
+    text-align: justify;
   }
 }
 
