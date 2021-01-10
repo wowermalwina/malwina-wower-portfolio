@@ -26,8 +26,8 @@
       <button class="hamburger" id="hamburger">
         <span class="fas fa-bars"></span>
       </button>
-      <h1>Malwina Wower</h1>
-      <nav class="main-nav">
+      <h1><a href="#">Malwina Wower</a></h1>
+      <nav class="main-nav" id="nav">
         <ul class="myLinks" id="myLinks">
           <li><a href="#myfeaturedwork">Featured Projects</a></li>
           <li><a href="#contact-section">Contact</a></li>
@@ -53,7 +53,7 @@
         <div class="left-column">
           <h2>Hello,</h2>
           <p>
-            I'm <span>Malwina</span>, a Junior Web Developer based in Bath, UK.
+            I'm <span>Malwina</span>, a Junior Web Developer based in Bath, UK. 
           </p>
 
           <p><a href="#contact-section">Lets chat!</a></p>
@@ -85,7 +85,7 @@
           <div class="wrapper">
             <div class="skills skill-html">
               <span class="fab fa-html5"></span>
-              <span class="icons-text">HTML 5</span>
+              <span class="icons-text">HTML5</span>
             </div>
             <div class="skills skill-css">
               <span class="fab fa-css3-alt"></span>
@@ -132,6 +132,10 @@
               <span class="fas fa-fire"></span>
               <span class="icons-text">FIREBASE</span>
             </div>
+               <div class="skills skill-postman">
+              <span class="fas fa-user-astronaut"></span>
+              <span class="icons-text">POSTMAN</span>
+            </div>
           </div>
         </div>
       </section>
@@ -161,14 +165,7 @@
             <h4>Featured Project</h4>
             <h5>Happy App</h5>
           </div>
-          <div class="box external-links">
-            <a href="https://github.com/nology-tech/happy-app" alt="code"
-              ><span class="fab fa-github"></span
-            ></a>
-            <a href="https://happy-app-86830.web.app/" alt="code"
-              ><span class="fas fa-external-link-alt"></span
-            ></a>
-          </div>
+          
           <div class="box info-featured-project">
             <p>
               A Mental Health App for employees and businesses which monitors
@@ -176,6 +173,15 @@
               team of 12.
             </p>
             <span>REACT | FIREBASE | CSS3(SASS) | HTML5</span>
+          </div>
+
+          <div class="box external-links">
+            <a href="https://github.com/nology-tech/happy-app" alt="code"
+              ><span class="fab fa-github"></span
+            ></a>
+            <a href="https://happy-app-86830.web.app/" alt="code"
+              ><span class="fas fa-external-link-alt"></span
+            ></a>
           </div>
         </article>
         <article
@@ -185,26 +191,26 @@
           data-aos-easing="ease-in-out"
         >
           <img
-            src="src/img/coding-background.jpg"
+            src="src/img/covidtracker.png"
             class="box projectimage"
             alt="avatar"
           />
-          <div class="box featured-project-title">
+           <div class="box featured-project-title">
             <h4>Featured Project</h4>
-            <h5>GAME</h5>
+            <h5>COVID19 Tracker</h5>
+          </div>
+         
+          <div class="box info-featured-project">
+            <p>
+              A responsive app that fetches data from an API and displays it in the forms of map, graph and table. Search functionality allows you to filter through countries.
+            </p>
+            <span>REACT | API | CSS3(SASS) | HTML5</span>
           </div>
           <div class="box external-links">
             <a href="#" alt="code"><span class="fab fa-github"></span></a>
             <a href="#" alt="code"
               ><span class="fas fa-external-link-alt"></span
             ></a>
-          </div>
-          <div class="box info-featured-project">
-            <p>
-              Lorem ipsum do Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Blanditiis voluptatibus repudiandae aliquid nihil optio
-            </p>
-            <span>REACT</span>
           </div>
         </article>
 
@@ -221,20 +227,21 @@
           />
           <div class="box featured-project-title">
             <h4>Featured Project</h4>
-            <h5>Happy App</h5>
+            <h5>GAME</h5>
           </div>
-          <div class="box external-links">
-            <a href="#" alt="code"><span class="fab fa-github"></span></a>
-            <a href="#" alt="code"
-              ><span class="fas fa-external-link-alt"></span
-            ></a>
-          </div>
+          
           <div class="box info-featured-project">
             <p>
               Lorem ipsum do Lorem ipsum dolor sit, amet consectetur adipisicing
               elit. Blanditiis voluptatibus repudiandae aliquid nihil optio
             </p>
             <span>REACT</span>
+          </div>
+          <div class="box external-links">
+            <a href="#" alt="code"><span class="fab fa-github"></span></a>
+            <a href="#" alt="code"
+              ><span class="fas fa-external-link-alt"></span
+            ></a>
           </div>
         </article>
       </section>
@@ -386,8 +393,7 @@
     <section id="contact-section">
       <h5 id="h5">Get in touch</h5>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-        dignissimos minus voluptatem.
+        Thanks for dropping by. Get in touch with me by clicking the icons provided at the bottom of this page.
       </p>
       <ul>
         <a href="#" alt="github">
