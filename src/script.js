@@ -34,3 +34,5 @@ colorChanger.addEventListener("change", () => {
   document.getElementById("profile-pic").src = toggleImg();
   document.getElementById("footer-image").src = toggleImageFooter();
 });
+
+//NAVBAR

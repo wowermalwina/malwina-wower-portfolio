@@ -11,7 +11,11 @@ body {
         background-color: $secondary-dark;
       }
 
-      h1 {
+      #hamburger {
+        color: $primary-dark;
+      }
+
+      h1 a {
         color: $primary-dark;
       }
 
@@ -130,6 +134,22 @@ body {
     }
 
     #myfeaturedwork {
+      .myfeaturedwork-right,
+      .myfeaturedwork-left {
+        transition: filter 0.5s ease-in;
+
+        .projectimage {
+          transition: filter 0.5s ease-in;
+          filter: hue-rotate(20deg) grayscale(40%) contrast(150%);
+
+          &:hover {
+            opacity: 1;
+            transition: filter 0.5s ease-in;
+
+            filter: grayscale(10%);
+          }
+        }
+      }
       h5,
       h4 {
         color: $light-color;
