@@ -457,6 +457,9 @@ body header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 50px;
   z-index: 10;
 }
@@ -464,16 +467,17 @@ body header {
 body header h1 {
   color: #fcfcfc;
   padding: 0px 0px;
-  width: 35%;
-  top: -8px;
+  width: 40%;
   display: inline-block;
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
 body header h1 a {
+  margin-top: 10px;
   text-decoration: none;
   color: #fcfcfc;
 }
@@ -656,6 +660,7 @@ body .aboutme .column {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  background-color: #f8d9d6;
 }
 
 body .aboutme .column .left-column {
@@ -679,10 +684,13 @@ body .aboutme .column .left-column {
   padding: 2vh 40px;
 }
 
+body .aboutme .column .left-column a {
+  margin-top: 2vh;
+}
+
 body .aboutme .column .right-column {
   background-color: #f8d9d6;
   height: 35vh;
-  text-align: left;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
@@ -1361,6 +1369,9 @@ body footer p {
   }
   body #hamburger .fa-cross {
     display: none;
+  }
+  body header h1 a {
+    margin-left: 10px;
   }
   body header nav ul {
     display: inline-block;
