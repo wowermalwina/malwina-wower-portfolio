@@ -83,20 +83,22 @@ body {
     top: 0px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 50px;
     z-index: 10;
 
     h1 {
       color: #fcfcfc;
       padding: 0px 0px;
-      width: 35%;
-      top: -8px;
+      width: 40%;
       display: inline-block;
       font-size: 40px;
       font-family: $header-font;
       text-transform: uppercase;
       letter-spacing: 2px;
+      white-space: nowrap;
       a {
+        margin-top: 10px;
         text-decoration: none;
         color: #fcfcfc;
         &:hover {
@@ -248,6 +250,7 @@ body {
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
+      background-color: $secondary-color;
 
       .left-column {
         background-color: $secondary-color;
@@ -259,12 +262,14 @@ body {
         line-height: 2em;
         height: 35vh;
         padding: 2vh 40px;
+        a {
+          margin-top: 2vh;
+        }
       }
 
       .right-column {
         background-color: $secondary-color;
         height: 35vh;
-        text-align: left;
         box-sizing: content-box;
       }
     }
@@ -905,14 +910,21 @@ body {
       }
     }
 
-    header nav ul {
-      display: inline-block;
-      font-size: 10px;
-      li a {
-        &:hover,
-        &:visited {
-          color: $primary-font;
-          background-color: transparent;
+    header {
+      h1 {
+        a {
+          margin-left: 10px;
+        }
+      }
+      nav ul {
+        display: inline-block;
+        font-size: 10px;
+        li a {
+          &:hover,
+          &:visited {
+            color: $primary-font;
+            background-color: transparent;
+          }
         }
       }
     }
