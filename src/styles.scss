@@ -251,7 +251,6 @@ body {
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
-      background-color: $secondary-color;
 
       .left-column {
         background-color: $secondary-color;
@@ -917,7 +916,7 @@ body {
     header {
       h1 {
         a {
-          margin-left: 10px;
+          margin-left: 0.2rem;
         }
       }
       nav ul {
@@ -945,7 +944,7 @@ body {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      text-align: center;
+      text-align: left;
       margin: 0;
       top: 48px;
       width: 100vw;
@@ -1164,6 +1163,8 @@ body {
         // margin: 40px auto;
         padding: 0 20px;
         text-align: justify;
+        font-size: small;
+        line-height: 2em;
       }
     }
   }
