@@ -1,8 +1,30 @@
 const hamburger = document.getElementById("hamburger");
 const navUL = document.getElementById("myLinks");
 
+let open = false;
 hamburger.addEventListener("click", () => {
   navUL.classList.toggle("show");
+  if (open === true) {
+    open = false;
+    hamburger.innerHTML = `<span class="fas fa-bars"></span>`;
+  } else {
+    open = true;
+    hamburger.innerHTML = `<span class="fas fa-times"></span>`;
+  }
+});
+
+const navLinks = document.querySelectorAll(".myLinks li a");
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    navUL.classList.toggle("show");
+    if (open === true) {
+      open = false;
+      hamburger.innerHTML = `<span class="fas fa-bars"></span>`;
+    } else {
+      open = true;
+      hamburger.innerHTML = `<span class="fas fa-times"></span>`;
+    }
+  });
 });
 
 // ToggleImg
@@ -36,5 +58,3 @@ colorChanger.addEventListener("change", () => {
   document.getElementById("profile-pic").src = toggleImg();
   document.getElementById("footer-image").src = toggleImageFooter();
 });
-
-//NAVBAR
