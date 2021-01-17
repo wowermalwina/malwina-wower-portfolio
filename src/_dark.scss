@@ -4,6 +4,10 @@ body {
   &.dark {
     background: $primary-dark;
 
+    a {
+      color: $vibrant-dark;
+    }
+
     header {
       background-color: $secondary-dark;
 
@@ -96,7 +100,7 @@ body {
     #other-projects {
       #other-projects-container {
         button {
-          background-color: $gray-dark;
+          background-color: $primary-dark;
           border: 1px solid $light-color;
           transition: $transition;
           color: $light-color;
