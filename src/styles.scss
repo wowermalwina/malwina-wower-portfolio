@@ -415,6 +415,7 @@ body {
       padding: 10px;
       text-align: center;
       white-space: nowrap;
+      opacity: 0.7;
     }
 
     //PROJECT 1
@@ -568,11 +569,14 @@ body {
           line-height: 2em;
           margin: 20px 0;
           padding: $base-padding;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
 
           .fa-folder {
             font-size: 30px;
-            color: $primary-color;
-            margin-left: $base-margin/2;
+            color: $quaternary-color;
+            margin-left: 0;
           }
           .external-links {
             display: flex;
@@ -586,6 +590,13 @@ body {
           p {
             margin: 25px 0;
             color: $dark-color;
+          }
+
+          h6 {
+            font-size: 0.7rem;
+            text-align: left;
+            opacity: 0.7;
+            // padding: 10px;
           }
         }
       }

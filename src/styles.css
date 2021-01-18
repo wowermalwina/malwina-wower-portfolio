@@ -132,6 +132,10 @@ body.dark {
   background: #292c35;
 }
 
+body.dark a {
+  color: #4de975;
+}
+
 body.dark header {
   background-color: #e27cb3;
 }
@@ -215,7 +219,7 @@ body.dark #other-projects {
 }
 
 body.dark #other-projects #other-projects-container button {
-  background-color: #44475a;
+  background-color: #292c35;
   border: 1px solid #ebebeb;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -847,6 +851,7 @@ body #myfeaturedwork span {
   padding: 10px;
   text-align: center;
   white-space: nowrap;
+  opacity: 0.7;
 }
 
 body #myfeaturedwork .myfeaturedwork-left .box {
@@ -1018,12 +1023,22 @@ body #other-projects #other-projects-container .my-other-work .other-project {
   line-height: 2em;
   margin: 20px 0;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body #other-projects #other-projects-container .my-other-work .other-project .fa-folder {
   font-size: 30px;
-  color: #fcfcfc;
-  margin-left: 10px;
+  color: #ff8584;
+  margin-left: 0;
 }
 
 body #other-projects #other-projects-container .my-other-work .other-project .external-links {
@@ -1042,6 +1057,12 @@ body #other-projects #other-projects-container .my-other-work .other-project .ex
 body #other-projects #other-projects-container .my-other-work .other-project p {
   margin: 25px 0;
   color: #515151;
+}
+
+body #other-projects #other-projects-container .my-other-work .other-project h6 {
+  font-size: 0.7rem;
+  text-align: left;
+  opacity: 0.7;
 }
 
 body #other-projects #other-projects-container button {
