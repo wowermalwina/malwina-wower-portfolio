@@ -187,7 +187,7 @@ body.dark .aboutme h2 {
 }
 
 body.dark .aboutme img {
-  border: 5px solid #9580fc;
+  border: 4px solid #9580fc;
 }
 
 body.dark .aboutme .column .right-column {
@@ -607,7 +607,7 @@ body .aboutme {
 }
 
 body .aboutme h2 {
-  margin: 5%;
+  margin-top: 5%;
   color: #797979;
   font-family: "Homemade Apple", cursive;
   font-size: 2.2rem;
@@ -619,7 +619,7 @@ body .aboutme h2 {
 body .aboutme p {
   display: inline-block;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 2em;
   margin-left: 22%;
 }
 
@@ -647,7 +647,7 @@ body .aboutme img {
   height: 35vh;
   width: auto;
   position: relative;
-  border: 5px solid #fcfcfc;
+  border: 4px solid #ff8584;
   border-radius: 50%;
   margin: 5vh;
 }
@@ -790,8 +790,8 @@ body .icons-wrapper .wrapper .skill-github:hover {
   color: #000;
 }
 
-body .icons-wrapper .wrapper .skill-yarn:hover {
-  color: #2b8ab5;
+body .icons-wrapper .wrapper .skill-figma:hover {
+  color: #b056f7;
 }
 
 body .icons-wrapper .wrapper .skill-npm:hover {
@@ -1451,7 +1451,7 @@ body footer p {
   }
   body .aboutme img {
     width: 250px;
-    border: 2px solid #fcfcfc;
+    border: 2px solid #ff8584;
     padding: 0;
     margin: 0;
   }
