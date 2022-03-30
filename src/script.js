@@ -31,10 +31,10 @@ navLinks.forEach((link) => {
 
 const toggleImg = () => {
   let initialImg = document.getElementById("profile-pic").src;
-  let srcTest = initialImg.includes("src/img/picture-of-malwina.jpg");
+  let srcTest = initialImg.includes("src/img/picture-of-malwina.png");
   let newImg = {
-    true: "src/img/vampire.jpg",
-    false: "src/img/picture-of-malwina.jpg",
+    true: "src/img/dark-img.png",
+    false: "src/img/picture-of-malwina.png",
   }[srcTest];
 
   return newImg;
